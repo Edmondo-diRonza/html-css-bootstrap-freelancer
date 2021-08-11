@@ -1,0 +1,127 @@
+/* MIX */
+.text-white {
+    color: #fff;;
+}
+.text-blue {
+    color: #2C3E50;
+}
+.m-top70 {
+    margin-top: 70px;
+}
+.background-blue {
+    background-color: #2C3E50;
+}
+.background-green {
+    background-color: #1ABC9C;
+}
+.star-separator {
+    font-size: 2.5rem;
+}
+.star-separator:after, .star-separator:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 3px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 3px;    
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.menu-item li {
+    list-style: none;
+    display: inline;
+}   
+        
+.menu-item li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 16px ;
+    padding: 5px;    
+}
+.menu-item li a:hover {
+    background-color: #fff;
+    color: #2C3E50;
+    border-radius: 5px;
+}
+
+
+/* HEADER  */
+
+#header-top {
+    height: 88px;
+    line-height: 88px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#logo {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+}
+nav {
+    text-align: right;
+}
+nav .menu-item li a {
+    font-size: 16px;
+    text-transform: uppercase; 
+    font-weight: bold;
+    line-height: 88px;
+}
+
+/* JUMBOTRON  */
+.jumbotron {
+    min-height:680px;
+}
+#jumbotron-text {
+    text-align: center;    
+}
+#logo-img {
+    max-height: 250px;
+}
+#jumbotron-text h1 {
+    text-transform: uppercase;
+    font-size: 3.8rem;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+/* PORTFOLIO */
+#portfolio {
+    min-height: 980px;
+    text-align: center;
+}
+
+#portfolio h2 {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.portfolio-box img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+
+/* ABOUT */
+
+#about {
+    min-height: 640px;
+}
+
+/* CONTACT ME */
+
+#contact-me {
+    min-height: 360px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 430px;
+}
