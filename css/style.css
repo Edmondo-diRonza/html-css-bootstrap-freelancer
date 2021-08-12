@@ -1,23 +1,36 @@
 /* MIX */
-.text-white {
+html {
+    font-size:16px;
+  }
+body{
+    font-family: 'Lato', sans-serif;    
+}
+.wrapper {
+    max-width: 800px;
+    margin: auto;
+}
+.text_white {
     color: #fff;;
 }
-.text-blue {
+.text_blue {
     color: #2C3E50;
 }
-.m-top70 {
-    margin-top: 70px;
+.p_top80 {
+    padding-top: 80px;
 }
-.background-blue {
+.p_bottom80 {
+    padding-bottom: 80px;
+}
+.background_blue {
     background-color: #2C3E50;
 }
-.background-green {
+.background_green {
     background-color: #1ABC9C;
 }
-.star-separator {
+.star_separator {
     font-size: 2.5rem;
 }
-.star-separator:after, .star-separator:before {
+.star_separator:after, .star_separator:before {
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -26,31 +39,37 @@
     background-color: #fff;
     border-radius: 3px;    
 }
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-.menu-item li {
+
+.menu_item li {
     list-style: none;
     display: inline;
 }   
         
-.menu-item li a {
+.menu_item li a {
     text-decoration: none;
     color: #fff;
     margin-right: 16px ;
     padding: 5px;    
 }
-.menu-item li a:hover {
-    background-color: #fff;
-    color: #2C3E50;
+.menu_item li a:hover {
+    background-color: #1ABC9C;
+    color: #fff;
     border-radius: 5px;
+}
+
+
+/* TYP  */
+h2 {
+    text-transform: uppercase;
+    font-size: 3.3rem;
+    font-weight: bolder;
+    padding-bottom: 20px;
 }
 
 
 /* HEADER  */
 
-#header-top {
+#header_top {
     height: 88px;
     line-height: 88px;
     position: sticky;
@@ -66,42 +85,38 @@ body {
 nav {
     text-align: right;
 }
-nav .menu-item li a {
-    font-size: 16px;
+nav .menu_item li a {
     text-transform: uppercase; 
-    font-weight: bold;
+    font-weight: 900;
     line-height: 88px;
 }
-
-/* JUMBOTRON  */
-.jumbotron {
-    min-height:680px;
+#hamburger {
+    font-size: 16px;
+    background-color: #1ABC9C;
+    font-weight: bold;
 }
-#jumbotron-text {
+
+/* jumbo  */
+
+#jumbo_text {
     text-align: center;    
 }
-#logo-img {
+#logo_img {
     max-height: 250px;
 }
-#jumbotron-text h1 {
+#jumbo_text h1 {
     text-transform: uppercase;
     font-size: 3.8rem;
-    font-weight: 700;
+    font-weight: bold;
     margin-top: 35px;
 }
 
 /* PORTFOLIO */
-#portfolio {
-    min-height: 980px;
-    text-align: center;
-}
 
-#portfolio h2 {
-    text-transform: uppercase;
-    font-size: 3.5rem;
-    font-weight: 700;
+.portfolio_box:hover {
+    background-color: #1ABC9C;
 }
-.portfolio-box img {
+.portfolio_box img {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 25px;
@@ -110,18 +125,28 @@ nav .menu-item li a {
 
 /* ABOUT */
 
-#about {
-    min-height: 640px;
-}
 
 /* CONTACT ME */
 
-#contact-me {
-    min-height: 360px;
-}
 
 /* FOOTER */
 
-footer {
-    height: 430px;
+#footer_top li a {
+    display: inline-block;
+    font-size: 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 8px;
+    height: 10px;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+
+}
+#footer_bottom {
+    background-color: #1a252f;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    bottom: 0;
 }
