@@ -159,9 +159,9 @@ nav .menu_item li a {
 /* ABOUT */
 
 /* CONTACT ME */
-/* .form_width {
-    width: 50%;
-} */
+.form_row_margin {
+    margin-bottom: 12px;
+}
 
 /* FOOTER */
 
