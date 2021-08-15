@@ -6,7 +6,7 @@ body{
     font-family: 'Lato', sans-serif;    
 }
 .wrapper {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 .text_white {
@@ -157,6 +157,17 @@ nav .menu_item li a {
 }
 
 /* ABOUT */
+#about p {
+    text-align: left;
+    line-height: 1.8rem;
+}
+.btn-about {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.35rem;
+    border-color: #fff;
+    padding: 17px 25px;
+}
 
 /* CONTACT ME */
 .form_row_margin {
@@ -164,7 +175,16 @@ nav .menu_item li a {
 }
 
 /* FOOTER */
-
+footer h3 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+footer p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
 #footer_top li a {
     display: inline-block;
     font-size: 1.5rem;
@@ -175,7 +195,6 @@ nav .menu_item li a {
     width: 50px;
     height: 50px;
     vertical-align: middle;
-
 }
 #footer_bottom {
     background-color: #1a252f;
