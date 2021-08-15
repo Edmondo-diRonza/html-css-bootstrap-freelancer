@@ -35,7 +35,7 @@ body{
     content: "";
     display: inline-block;
     vertical-align: middle;
-    height: 3px;
+    height: 4px;
     width: 100px;
     background-color: #fff;
     border-radius: 4px;
@@ -167,6 +167,8 @@ nav .menu_item li a {
     font-size: 1.35rem;
     border-color: #fff;
     padding: 17px 25px;
+    margin-top: 30px;
+    border-width: 2px;
 }
 
 /* CONTACT ME */
